@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "kr4nk.starfield",
+  "name": "Starfield",
+  "version": "1.0.0",
+  "author": "kr4nk",
+  "description": "Drifting starfield behind the bar, matching the Ghostty shader",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Starfield",
+    "description": "Draws a drifting starfield behind the whole bar",
+    "category": "Appearance",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
